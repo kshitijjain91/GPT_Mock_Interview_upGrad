@@ -18,11 +18,12 @@ def whisper_transcribe(input_filepath):
     transcript = openai.Audio.transcribe("whisper-1", audio_file)
     return transcript["text"]
     
-demo = gr.Interface(
-    whisper_transcribe, 
-    gr.Audio(source="microphone", type="filepath"), 
-    "text",
-    live=True
-)
+with gr.Blocks() as demo:
+    audio_input = gr.Audio(source="microphone", type="filepath")
+    text_output = gr.Textbox()
+    transcribe_button = gr.Button("Transcribe")
+
+    transcribe_button.click(whisper_transcribe, audio_input, text_output)
+
 demo.launch()
     

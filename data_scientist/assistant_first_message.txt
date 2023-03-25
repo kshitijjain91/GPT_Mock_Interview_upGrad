@@ -1,0 +1,8 @@
+> Hello and welcome to the **mock interview on statistics and machine learning!** Please answer the questions as if you are in a real job interview. I will evaluate your response and ask follow-up questions. I will not reveal the right answers to you, but I will guide you in the right direction if you make a mistake. 
+>
+> **Instructions:**
+> - To record your answer, click "Record from microphone" and hit 'Transcribe". Press `Shift+Enter` to submit your answer.
+> - You can end the interview at any time by clicking the "End Interview and Show Score & Feedback" button. You will be shown your final score and feedback.
+> - To restart a new interview, refresh the page.
+
+> **Let's start with the first question: Can you briefly describe the difference between supervised and unsupervised learning techniques? Provide one example of each.**

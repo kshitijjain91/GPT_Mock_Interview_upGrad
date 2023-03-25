@@ -908,3 +908,772 @@ and pricing.
 grade=6
 feedback=linear regression can be used to understand buyer behaviour and also to predict prices. however, provide more examples of business problems where linear regression can be used.
 
+is this thing on? 
+
+{grade: 0, feedback: please answer the questions as if you are in a real job interview.}
+grade=0
+feedback=please answer the questions as if you are in a real job interview.
+
+another one i can think of is you can use linear regression to predict the amount of money a person spends in a month, based on their income, age, gender, etc. 
+
+{grade:9, feedback:good response. two specific examples are provided.}
+grade=None
+feedback=None
+
+another example is you can use linear regression to predict the probability of loan default.
+
+your response: {grade: 8, feedback: the response is exhaustive and provides two examples of business problems where linear regression can be used. the response is technically correct and explains the central ideas clearly.}
+grade=8
+feedback=the response is exhaustive and provides two examples of business problems where linear regression can be used. the response is technically correct and explains the central ideas clearly.
+
+another example is i can use regression to predict the number of sales of a product in the future based on input variables such as the number of sales of the product in the past, the price of the product, the number of competitors products, etc.
+
+{grade: 8, feedback: the response captures two examples of business problems where linear regression can be used. the first example could be elaborated on further and the second example is missing a key variable - advertising spend.}
+grade=8
+feedback=the response captures two examples of business problems where linear regression can be used. the first example could be elaborated on further and the second example is missing a key variable - advertising spend.
+
+{
+    grade: 9,
+    feedback: the response is exhaustive, technically correct and explains the central ideas clearly. good job!
+}
+grade=9
+feedback=the response is exhaustive, technically correct and explains the central ideas clearly. good job!
+
+{
+    grade: 9, 
+    feedback: the response is technically correct and captures the central ideas clearly. the candidate could have elaborated on the consequences of violating these assumptions.
+}
+grade=9
+feedback=the response is technically correct and captures the central ideas clearly. the candidate could have elaborated on the consequences of violating these assumptions.
+
+{
+grade: 2,
+feedback: the response is not exhaustive. there are 4 major assumptions of linear regression- linearity, homoscedasticity, normality, and independence. the candidate has only mentioned linearity.
+}
+grade=2
+feedback=the response is not exhaustive. there are 4 major assumptions of linear regression- linearity, homoscedasticity, normality, and independence. the candidate has only mentioned linearity.
+
+{
+grade: 8, 
+feedback: the response captures the assumptions well but could have elaborated on a few of them.
+}
+grade=8
+feedback=the response captures the assumptions well but could have elaborated on a few of them.
+
+another example is i can use linear regression to predict the amount of sales for a company next month based on input variables such as the amount of marketing spend, the number of employees, etcetera. 
+
+{
+    grade: 8,
+    feedback: the response captures two business problems where linear regression can be used. marketing spend and number of employees are not great input variables for sales prediction - consider other factors such as the companys products, the season, etc.
+}
+grade=8
+feedback=the response captures two business problems where linear regression can be used. marketing spend and number of employees are not great input variables for sales prediction - consider other factors such as the companys products, the season, etc.
+
+another example is using linear regression to predict the demand for a product as a function of advertising spending. 
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used. remember that linear regression can be used for regression and classification problems.
+}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used. remember that linear regression can be used for regression and classification problems.
+
+{
+ grade: 8, 
+ feedback: the response captures the central idea correctly but is missing a few technical details. 
+}
+grade=8
+feedback=the response captures the central idea correctly but is missing a few technical details. 
+
+to check for linearity, i would look at the scatter plots of the input variables against the target variable. if there is a linear relationship, then i would expect to see a clear linear trend in the data.
+
+to check for the lack of correlation between input variables, i would look at the correlation matrix. this will tell me whether or not there is a linear relationship between any of the input variables. if there is a linear relationship, then i would expect to see a high correlation between those variables.
+
+{grade: 9, feedback: the response is technically correct and captures the central ideas clearly.}
+grade=9
+feedback=the response is technically correct and captures the central ideas clearly.
+
+another example is you can use linear regression to predict how many units of a product will be sold in the future based on historical sales data, advertising budget, seasonality, etc. 
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used. remember to always provide concrete examples to back up your claims.
+}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used. remember to always provide concrete examples to back up your claims.
+
+i can use linear regression to predict the sales of my product.
+
+{
+grade: 10, 
+feedback: the response is exhaustive, technically correct, explains the central ideas clearly and demonstrates professional level expertise.
+}
+grade=10
+feedback=the response is exhaustive, technically correct, explains the central ideas clearly and demonstrates professional level expertise.
+
+{grade: 8, 
+feedback: the response captures the key assumptions of linear regression correctly. }
+grade=8
+feedback=the response captures the key assumptions of linear regression correctly. 
+
+{
+grade: 3, 
+feedback: the candidate is not familiar with the linear regression model assumptions. they should brush up on their statistics and machine learning fundamentals.
+}
+grade=3
+feedback=the candidate is not familiar with the linear regression model assumptions. they should brush up on their statistics and machine learning fundamentals.
+
+{
+grade: 10, 
+feedback: the response captures all the key points of the question and is technically correct. the candidate demonstrates professional level expertise.
+}
+grade=10
+feedback=the response captures all the key points of the question and is technically correct. the candidate demonstrates professional level expertise.
+
+{
+grade: 8, 
+feedback: the answer is technically correct but could be more comprehensive. for example, it does not mention when to use each type of regression if you have multiple input variables. 
+}
+grade=8
+feedback=the answer is technically correct but could be more comprehensive. for example, it does not mention when to use each type of regression if you have multiple input variables. 
+
+another example is i can use linear regression to predict the demand for a product as a function of advertising budget, price, and seasonality. 
+
+{
+    grade: 8,
+    feedback: the response captures two examples of business problems where linear regression can be used. the first example could be elaborated upon a bit more. for the second example, the demand for a product could be predicted as a function of advertising budget, price, and seasonality.
+}
+grade=8
+feedback=the response captures two examples of business problems where linear regression can be used. the first example could be elaborated upon a bit more. for the second example, the demand for a product could be predicted as a function of advertising budget, price, and seasonality.
+
+{
+grade: 7,
+feedback: the response is technically correct but could be more exhaustive. for example, the candidate could mention that linear regression is also used for time-series analysis.
+}
+grade=7
+feedback=the response is technically correct but could be more exhaustive. for example, the candidate could mention that linear regression is also used for time-series analysis.
+
+another example is i can use regression to predict demand for a product as a function of price, advertising, and competitor pricing.
+
+{grade: 9, feedback: none}
+grade=9
+feedback=none
+
+another example is i can use regression to predict the number of units of a product that will be sold based on advertising budget, price, competitor activity and so on.
+
+{
+    grade: 8,
+    feedback: thats correct. linear regression can be used for a variety of business problems. for example, you could also use linear regression to predict demand for a new product, or to predict how a change in price will affect demand.
+}
+grade=8
+feedback=thats correct. linear regression can be used for a variety of business problems. for example, you could also use linear regression to predict demand for a new product, or to predict how a change in price will affect demand.
+
+another example is you can use regression to predict how many units of a product will be sold based on marketing inputs such as tv ad spend, newspaper ad spend, etc.
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples where linear regression can be used to solve business problems.
+}
+grade=8
+feedback=good job! you have provided two examples where linear regression can be used to solve business problems.
+
+{
+grade: 9,
+feedback: the response captures the use of linear regression for sales prediction correctly. a more complete response would also mention that linear regression could be used for time-series forecasting, for example to predict demand for a product. 
+}
+grade=9
+feedback=the response captures the use of linear regression for sales prediction correctly. a more complete response would also mention that linear regression could be used for time-series forecasting, for example to predict demand for a product. 
+
+another example is i can use linear regression to predict the demand for a product as a function of its price, advertising budget, etc. 
+
+{
+    grade: 9,
+    feedback: good job! you have provided two valid examples of business problems where linear regression can be used. remember that linear regression can be used for both regression and classification problems.
+}
+grade=9
+feedback=good job! you have provided two valid examples of business problems where linear regression can be used. remember that linear regression can be used for both regression and classification problems.
+
+{
+grade: 8,
+feedback: the response is technically correct and demonstrates professional level expertise. 
+}
+grade=8
+feedback=the response is technically correct and demonstrates professional level expertise. 
+
+another example is i can use linear regression to predict how successful a new product will be based on factors such as the marketing budget, the target audience, etc. 
+
+{
+    grade: 8, 
+    feedback: the response captures two examples of business problems where linear regression can be used. good job!
+}
+grade=8
+feedback=the response captures two examples of business problems where linear regression can be used. good job!
+
+{
+grade: 10,
+feedback: the response is exhaustive, technically correct, and explains the central ideas clearly. the response demonstrates professional level expertise.
+}
+grade=10
+feedback=the response is exhaustive, technically correct, and explains the central ideas clearly. the response demonstrates professional level expertise.
+
+another example is i can use linear regression to predict the number of items a customer will purchase in a store based on the customers age, gender, income and so on. 
+
+{grade: 8, feedback: the candidate has provided two examples of business problems where linear regression can be used. the candidate could have provided more examples.}
+grade=8
+feedback=the candidate has provided two examples of business problems where linear regression can be used. the candidate could have provided more examples.
+
+{
+grade: 9,
+feedback: the response is technically correct and provides a good example. 
+}
+grade=9
+feedback=the response is technically correct and provides a good example. 
+
+another example is you can use linear regression to predict how many units of a product will be sold based on variables such as advertising budget, price, etc.
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples where linear regression can be used. remember that linear regression can be used for a variety of business problems, so try to think of a few more examples.
+}
+grade=8
+feedback=good job! you have provided two examples where linear regression can be used. remember that linear regression can be used for a variety of business problems, so try to think of a few more examples.
+
+another example is using regression to predict the demand for a product as a function of price, advertising, seasonality and so on. 
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used. you could have elaborated a bit more on how linear regression can be used to solve these problems.
+}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used. you could have elaborated a bit more on how linear regression can be used to solve these problems.
+
+{
+grade: 8,
+feedback: the response captures the central ideas correctly. 
+}
+grade=8
+feedback=the response captures the central ideas correctly. 
+
+another example is using linear regression to predict the demand for a product as a function of its price and advertising budget. 
+
+{
+    grade: 8,
+    feedback: the response captures the right idea but is missing a few key points. for example, linear regression can also be used to predict the probability of an event (such as default on a loan) as a function of several predictor variables.
+}
+grade=8
+feedback=the response captures the right idea but is missing a few key points. for example, linear regression can also be used to predict the probability of an event (such as default on a loan) as a function of several predictor variables.
+
+{
+    grade: 9,
+    feedback: the response is exhaustive and captures the central idea correctly. great job!
+}
+grade=9
+feedback=the response is exhaustive and captures the central idea correctly. great job!
+
+{
+grade: 9, 
+feedback: the response captures the key assumptions made in linear regression accurately. 
+}
+grade=9
+feedback=the response captures the key assumptions made in linear regression accurately. 
+
+{
+    grade: 8,
+    feedback: the response captures two of the assumptions made in linear regression
+}
+grade=8
+feedback=the response captures two of the assumptions made in linear regression
+
+{
+    grade: 8,
+    feedback: the response captures the central ideas correctly but could be more exhaustive.
+}
+grade=8
+feedback=the response captures the central ideas correctly but could be more exhaustive.
+
+another example is predicting the demand for a product as a function of advertising spending, price, etc. 
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used. remember that linear regression can be used for regression (predicting a continuous value) and classification (predicting a categorical value). 
+}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used. remember that linear regression can be used for regression (predicting a continuous value) and classification (predicting a categorical value). 
+
+another example where linear regression can be used is to predict the demand for a product as a function of its price, promotions, and seasonality. 
+
+{
+    grade: 8,
+    feedback: the response captures the two examples of business problems correctly. good job!
+}
+grade=8
+feedback=the response captures the two examples of business problems correctly. good job!
+
+{
+grade: 8,
+feedback: the response captures the idea correctly but could be more exhaustive. for example, the candidate could mention that linear regression can also be used to predict the demand for a product using historical sales data as input. 
+}
+grade=8
+feedback=the response captures the idea correctly but could be more exhaustive. for example, the candidate could mention that linear regression can also be used to predict the demand for a product using historical sales data as input. 
+
+another example would be to predict the demand for a product as a function of advertising budget, price, etc. 
+
+{grade: 8, 
+feedback: good job! you have provided two examples of business problems where linear regression can be used. 
+in the first example, you can use linear regression to predict the prices of a house. the inputs to the linear regression model would be features such as the area of the house, the number of rooms in the house, location, etc. the output of the linear regression model would be the price of the house. 
+in the second example, you can use linear regression to predict the demand for a product. the inputs to the linear regression model would be features such as advertising budget, price, etc. the output of the linear regression model would be the demand for the product.}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used. 
+
+{
+grade: 8, 
+feedback: the response captures the central ideas correctly. 
+}
+grade=8
+feedback=the response captures the central ideas correctly. 
+
+another example is using regression to predict the demand for a product as a function of price, advertising, etc. 
+
+{
+    grade: 8,
+    feedback: the two business problems provided are examples where linear regression can be used. good job!
+}
+grade=8
+feedback=the two business problems provided are examples where linear regression can be used. good job!
+
+{
+grade: 8,
+feedback: the response captures the key ideas correctly. 
+}
+grade=8
+feedback=the response captures the key ideas correctly. 
+
+another example is using regression to predict the demand for a product as a function of advertising budget, price, etc.
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used.
+}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used.
+
+{
+grade: 8,
+feedback: the response is technically correct and captures the central ideas clearly. 
+}
+grade=8
+feedback=the response is technically correct and captures the central ideas clearly. 
+
+another example is using linear regression to predict the demand for a product as a function of price, advertising, etc. 
+
+{
+    grade: 8,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used. you could have provided more detail in your explanation.
+}
+grade=8
+feedback=good job! you have provided two examples of business problems where linear regression can be used. you could have provided more detail in your explanation.
+
+{
+    grade: 8,
+    feedback: the response is technically correct and captures the central ideas clearly. it demonstrates professional level expertise.
+}
+grade=8
+feedback=the response is technically correct and captures the central ideas clearly. it demonstrates professional level expertise.
+
+example: if we want to predict the price of a house based on its size, then we use one input variable - size of the house - to predict one output variable - price of the house. this is a simple linear regression model. 
+
+if we want to predict the price of a house based on its size and number of bedrooms, then we use two input variables - size of the house and number of bedrooms - to predict one output variable - price of the house. this is a multiple linear regression model.
+{grade: 8, feedback: great job! you have provided a comprehensive answer.}
+grade=8
+feedback=great job! you have provided a comprehensive answer.
+
+{
+    grade: 6, 
+    feedback: the response is technically correct but does not demonstrate professional level expertise. the example provided is not simple linear regression.
+}
+grade=6
+feedback=the response is technically correct but does not demonstrate professional level expertise. the example provided is not simple linear regression.
+
+{
+    grade: 8,
+    feedback: the response is exhaustive and captures the key ideas correctly
+}
+grade=8
+feedback=the response is exhaustive and captures the key ideas correctly
+
+{grade: 9, feedback: the response is comprehensive, technically correct and well-explained. great job!}
+grade=9
+feedback=the response is comprehensive, technically correct and well-explained. great job!
+
+another example is predicting the demand for a product as a function of its price, advertising budget, etc. 
+
+{
+    grade: 9,
+    feedback: good job! you have provided two examples of business problems where linear regression can be used. remember that linear regression can be used for regression (i.e. predicting a continuous value) as well as classification (i.e. predicting a discrete value).
+}
+grade=9
+feedback=good job! you have provided two examples of business problems where linear regression can be used. remember that linear regression can be used for regression (i.e. predicting a continuous value) as well as classification (i.e. predicting a discrete value).
+
+{
+    grade: 8,
+    feedback: the response is technically correct and captures the central idea clearly. the response could be further improved by providing a real-world example.
+}
+grade=8
+feedback=the response is technically correct and captures the central idea clearly. the response could be further improved by providing a real-world example.
+
+{
+grade: 8,
+feedback: the response is technically correct and captures the central ideas clearly. }
+grade=8
+feedback=the response is technically correct and captures the central ideas clearly. 
+
+{
+    grade: 9, 
+    feedback: the response is exhaustive and captures the central ideas correctly.
+}
+grade=9
+feedback=the response is exhaustive and captures the central ideas correctly.
+
+{
+ grade: 8,
+ feedback: the response captures the idea correctly but could be more exhaustive.
+}
+grade=8
+feedback=the response captures the idea correctly but could be more exhaustive.
+
+another example is predicting the demand for a product as a function of its price. 
+
+{
+    grade: 8, 
+    feedback: good job! you have provided two examples where linear regression can be used. remember that linear regression can be used for a variety of business problems.
+}
+grade=8
+feedback=good job! you have provided two examples where linear regression can be used. remember that linear regression can be used for a variety of business problems.
+
+{
+grade: 8,
+feedback: the response captures the idea correctly but could be more exhaustive. for example, the response could mention that linear regression can also be used to predict the demand for a product. 
+}
+grade=8
+feedback=the response captures the idea correctly but could be more exhaustive. for example, the response could mention that linear regression can also be used to predict the demand for a product. 
+
+{
+grade: 7,
+feedback: the response is missing the concept of linear dependency among features.
+}
+grade=7
+feedback=the response is missing the concept of linear dependency among features.
+
+another example where linear regression can be used is to predict the demand for a product as a function of advertising expenditure, price, etc. 
+
+{
+    grade: 8,
+    feedback: the response is exhaustive and provides two examples of business problems where linear regression can be used. 
+}
+grade=8
+feedback=the response is exhaustive and provides two examples of business problems where linear regression can be used. 
+
+{
+grade: 8, 
+feedback: the response is technically correct and captures the central ideas clearly. 
+}
+grade=8
+feedback=the response is technically correct and captures the central ideas clearly. 
+
+.
+
+{
+grade: 8,
+feedback: the response is technically correct. however, the candidate could have elaborated on how advertisement spend could be included as an input feature in a linear regression model.
+}
+grade=8
+feedback=the response is technically correct. however, the candidate could have elaborated on how advertisement spend could be included as an input feature in a linear regression model.
+
+{
+    grade: 8, 
+    feedback: the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer.
+}
+grade=8
+feedback=the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer.
+
+{
+  grade: 8,
+  feedback: the objectives mentioned are relevant, however, a few more objectives that could be chosen for a meta ads campaign are the click-through rate (ctr), the conversion rate, and the cost per acquisition (cpa).
+}
+grade=8
+feedback=the objectives mentioned are relevant, however, a few more objectives that could be chosen for a meta ads campaign are the click-through rate (ctr), the conversion rate, and the cost per acquisition (cpa).
+
+{grade: 7, feedback: the response is 80% closer to an ideal answer.}
+grade=7
+feedback=the response is 80% closer to an ideal answer.
+
+{
+    grade: 8,
+    feedback: good answer! the candidate has provided a detailed response with examples.
+}
+grade=8
+feedback=good answer! the candidate has provided a detailed response with examples.
+
+{
+    grade: 8,
+    feedback: the response is technically correct and captures the key reasons for not using a dcf valuation.
+}
+grade=8
+feedback=the response is technically correct and captures the key reasons for not using a dcf valuation.
+
+{
+grade: 8, 
+feedback: the response is technically correct and provides a detailed explanation. 
+}
+grade=8
+feedback=the response is technically correct and provides a detailed explanation. 
+
+{
+  grade: 8,
+  feedback: the response is technically correct and captures the key insights correctly.
+}
+grade=8
+feedback=the response is technically correct and captures the key insights correctly.
+
+{
+    grade: 10, 
+    feedback: great response! you have covered all the objectives that could be achieved through a meta ads campaign.
+}
+grade=10
+feedback=great response! you have covered all the objectives that could be achieved through a meta ads campaign.
+
+so for that you can use, you can use facebooks offline conversion tracking. so thats how you can increase offline sales using facebook meta ads
+
+{
+    grade: 8,
+    feedback: great response. you covered a lot of different objectives that one could choose from depending on their campaign goals. can you give an example of a business objective that facebook meta ads could help achieve?
+}
+grade=8
+feedback=great response. you covered a lot of different objectives that one could choose from depending on their campaign goals. can you give an example of a business objective that facebook meta ads could help achieve?
+
+{grade: 8, feedback: the candidate has provided a technically correct answer. the response contains relevant points based on the question asked. the answer could be further improved by including more specific objectives for each category.}
+grade=8
+feedback=the candidate has provided a technically correct answer. the response contains relevant points based on the question asked. the answer could be further improved by including more specific objectives for each category.
+
+{
+  grade: 10,
+  feedback: great answer! the response is relevant and contains technical terms.
+}
+grade=10
+feedback=great answer! the response is relevant and contains technical terms.
+
+{
+grade: 8, 
+feedback: the answer is mostly correct. a social media marketing strategy to deal with negative comments should also include an apology (if required), and a call-to-action for the user to reach out to the brand offline. 
+}
+grade=8
+feedback=the answer is mostly correct. a social media marketing strategy to deal with negative comments should also include an apology (if required), and a call-to-action for the user to reach out to the brand offline. 
+
+so we tried to kind of turn it around and make it more aspirational for people. 
+
+{
+  grade: 8,
+  feedback: the response captures some relevant points. however, the response could have been more concise.
+}
+grade=8
+feedback=the response captures some relevant points. however, the response could have been more concise.
+
+{
+    grade: 8,
+    feedback: the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer.
+}
+grade=8
+feedback=the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer.
+
+{
+    grade: 8,
+    feedback: the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer.
+}
+grade=8
+feedback=the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer.
+
+{grade: 8, feedback: the response covers most of the important factors to be considered while choosing an objective for a meta ads campaign. the response could have elaborated a bit more on how the business objective is linked to the choice of objective for the meta ads campaign.}
+grade=8
+feedback=the response covers most of the important factors to be considered while choosing an objective for a meta ads campaign. the response could have elaborated a bit more on how the business objective is linked to the choice of objective for the meta ads campaign.
+
+{
+    grade: 9,
+    feedback: great job! you have listed all the objectives that can be selected for a meta ads campaign.
+}
+grade=9
+feedback=great job! you have listed all the objectives that can be selected for a meta ads campaign.
+
+and in conversion, you can choose from leads, conversions, app installs, etc.
+
+{grade: 10, feedback: the response contains relevant points based on the question asked. the response is 100% closer to an ideal answer. the response is technically correct and concurs with social media marketing and digital marketing fundamentals. the response contains relevant social media terms used in the marketing industry.}
+grade=10
+feedback=the response contains relevant points based on the question asked. the response is 100% closer to an ideal answer. the response is technically correct and concurs with social media marketing and digital marketing fundamentals. the response contains relevant social media terms used in the marketing industry.
+
+{
+  grade: 8,
+  feedback: great response! the objective for a meta ads campaign for a new product launch should be brand awareness.
+}
+grade=8
+feedback=great response! the objective for a meta ads campaign for a new product launch should be brand awareness.
+
+evaluation: {grade: 9, feedback: the answer is technically correct and contains relevant points. the response could have been more concise.}
+grade=9
+feedback=the answer is technically correct and contains relevant points. the response could have been more concise.
+
+{
+  grade: 9,
+  feedback: great answer! you have listed a few sub-objectives that can be chosen for each objective of a meta ads campaign.
+}
+grade=9
+feedback=great answer! you have listed a few sub-objectives that can be chosen for each objective of a meta ads campaign.
+
+{grade: 8,
+
+feedback: the response contains relevant points based on the question asked. the answer is technically correct and concurs with social media marketing and digital marketing fundamentals. the response also contains relevant social media terms used in the marketing industry. }
+grade=8
+feedback=the response contains relevant points based on the question asked. the answer is technically correct and concurs with social media marketing and digital marketing fundamentals. the response also contains relevant social media terms used in the marketing industry. 
+
+{
+    grade: 8,
+    feedback: the response is relevant and contains the right social media terms. however, it is missing one objective - website clicks.
+}
+grade=8
+feedback=the response is relevant and contains the right social media terms. however, it is missing one objective - website clicks.
+
+lead generation: in this, the objective is to get people to sign up for something, like a newsletter, or a free trial. the metric you would use to measure success would be the number of people who signed up. 
+
+engagement: the objective here is to get people to interact with your content. the metric you would use to measure success would be the number of people who engaged with your content. 
+
+{
+    grade: 9,
+    feedback: great job! you have captured the objectives and metrics accurately.
+}
+grade=9
+feedback=great job! you have captured the objectives and metrics accurately.
+
+{
+    grade: 7, 
+    feedback: the response is correct but could have been more comprehensive.
+}
+grade=7
+feedback=the response is correct but could have been more comprehensive.
+
+{
+ grade: 7, 
+ feedback: the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer. the response should contain relevant social media terms used in the marketing industry.
+}
+grade=7
+feedback=the response contains relevant points based on the question asked. the response is 80% closer to an ideal answer. the response should contain relevant social media terms used in the marketing industry.
+
+{
+  grade: 5,
+  feedback: when creating a meta ads campaign, you should select an objective that is in line with your business goals. selecting an objective randomly and changing it based on the results is not an effective way to manage a meta ads campaign.
+}
+grade=5
+feedback=when creating a meta ads campaign, you should select an objective that is in line with your business goals. selecting an objective randomly and changing it based on the results is not an effective way to manage a meta ads campaign.
+
+{grade: 10, feedback: the response is relevant and captures all the important points. the candidate has a clear understanding of how to select the right campaign objective.}
+grade=10
+feedback=the response is relevant and captures all the important points. the candidate has a clear understanding of how to select the right campaign objective.
+
+{grade: 7, feedback: the response is 80% close to an ideal answer. the response contains relevant points based on the question asked. the response is technically correct, i.e. should concur with social media marketing and digital marketing fundamentals. the response should contain relevant social media terms used in the marketing industry.}
+grade=7
+feedback=the response is 80% close to an ideal answer. the response contains relevant points based on the question asked. the response is technically correct, i.e. should concur with social media marketing and digital marketing fundamentals. the response should contain relevant social media terms used in the marketing industry.
+
+{
+    grade: 8,
+    feedback: the response contains relevant points based on the question asked. the response is 80% close to an ideal answer.
+}
+grade=8
+feedback=the response contains relevant points based on the question asked. the response is 80% close to an ideal answer.
+
+a common example of supervised learning would be predicting whether or not it will rain tomorrow given certain weather conditions. an example of unsupervised learning would be clustering data points into different groups.
+
+grade: 7-8
+
+feedback: your answer is technically correct, but it can be improved by providing more detail and clarity. for example, you can mention that in supervised learning, the training data is labeled, while in unsupervised learning, the training data is not labeled. you can also provide a real-life example for each of the techniques to make your answer more relatable and understandable.
+grade=7
+feedback=your answer is technically correct, but it can be improved by providing more detail and clarity. for example, you can mention that in supervised learning, the training data is labeled, while in unsupervised learning, the training data is not labeled. you can also provide a real-life example for each of the techniques to make your answer more relatable and understandable.
+
+grade: 7-8
+
+feedback:
+
+your answer is technically correct, but it could be more exhaustive. for example, you could explain how linear regression works and how it can be used to predict house prices. you could also provide a real-life example of how k-means clustering has been used in marketing.
+grade=7
+feedback=None
+
+a good example of supervised learning would be trying to predict the price of a house given a set of features about the house such as square footage, number of bedrooms, number of bathrooms, etc. a good example of unsupervised learning would be if we have a data set of different houses and we want to group them into different clusters based on their similarity. 
+
+grade: 9-10
+
+feedback: your answer is technically correct and provides a great example of supervised and unsupervised learning.
+grade=9
+feedback=your answer is technically correct and provides a great example of supervised and unsupervised learning.
+
+grade: 7-8
+
+feedback: your answer is technically correct, but it lacks exhaustiveness and clarity of explanation. to make your answer better, you can provide a brief description of how each technique works, and provide a real-life example of where each technique can be used.
+grade=7
+feedback=your answer is technically correct, but it lacks exhaustiveness and clarity of explanation. to make your answer better, you can provide a brief description of how each technique works, and provide a real-life example of where each technique can be used.
+
+grade: 7-8
+
+feedback: your answer is mostly correct. you correctly defined regularization and its purpose. you also correctly identified two regularization techniques - ridge and lasso regression. however, you could explain in more detail how these techniques help improve model generalization. for example, you could mention that ridge regression shrinks the coefficients towards zero, but it never sets them to zero. lasso regression, on the other hand, can completely eliminate coefficients by setting them to zero. this property of lasso regression can be used to perform feature selection.
+grade=7
+feedback=your answer is mostly correct. you correctly defined regularization and its purpose. you also correctly identified two regularization techniques - ridge and lasso regression. however, you could explain in more detail how these techniques help improve model generalization. for example, you could mention that ridge regression shrinks the coefficients towards zero, but it never sets them to zero. lasso regression, on the other hand, can completely eliminate coefficients by setting them to zero. this property of lasso regression can be used to perform feature selection.
+
+so, it basically adds a term in the cost function which is the sum of the squares of the model coefficients and then it minimizes the cost function.
+
+grade: 9
+grade=9
+feedback=No feedback provided for this response.
+
+
+grade=None
+feedback=No feedback provided for this response.
+
+grade: 4
+
+feedback: you should ideally explain left join, right join, inner join and outer join each with an example to exhaustively answer the question at hand. for example, when explaining outer joins, you can mention how it works, and why it is necessary in the cases where we need to retain all the values from both tables, even though there might be missing data.
+grade=4
+feedback=you should ideally explain left join, right join, inner join and outer join each with an example to exhaustively answer the question at hand. for example, when explaining outer joins, you can mention how it works, and why it is necessary in the cases where we need to retain all the values from both tables, even though there might be missing data.
+
+{
+grade: 10,
+feedback: excellent answer. you have provided a very clear and concise explanation of when to use each regularization technique.
+grade=10
+feedback=excellent answer. you have provided a very clear and concise explanation of when to use each regularization technique.
+
+so, even if there is some overfitting on one subset of the data, it gets averaged out because youre testing on different subsets of the data.
+
+{
+grade: 9-10,
+feedback: your answer is technically correct, exhaustive, and clearly explained. you could maybe add a real-life example of cross-validation in action to help the interviewee better understand the concept.
+grade=9
+feedback=your answer is technically correct, exhaustive, and clearly explained. you could maybe add a real-life example of cross-validation in action to help the interviewee better understand the concept.
+
+so, a supervised learning algorithm might be, like, a linear regression or logistic regression. while a unsupervised learning algorithm might be something like, i don’t know, like, a clustering algorithm.
+
+grade: 7-8
+
+feedback: your answer is factually correct and you explained it with an example explaining accuracys shortcomings as a measure. to make your answer better, you should also give another example where accuracy is not a good measure for a problem, and to give a better impression, you can mention other metrics that can be used instead of accuracy, such as, precision and recall.
+grade=7
+feedback=your answer is factually correct and you explained it with an example explaining accuracys shortcomings as a measure. to make your answer better, you should also give another example where accuracy is not a good measure for a problem, and to give a better impression, you can mention other metrics that can be used instead of accuracy, such as, precision and recall.
+
+so you can take a dataset of your customers and use k-means clustering to group them into different segments.
+
+grade: 7-8
+
+feedback: your answer is technically correct but lacks exhaustiveness. for linear regression, you can mention that it is used for predictive modeling and regression analysis, and mention how it works. for k-means clustering, you can mention that it is a clustering algorithm that groups data points into a predefined number of clusters, and mention how it works. you can also provide a real-life example for each of the algorithms to make your answer more complete.
+grade=7
+feedback=your answer is technically correct but lacks exhaustiveness. for linear regression, you can mention that it is used for predictive modeling and regression analysis, and mention how it works. for k-means clustering, you can mention that it is a clustering algorithm that groups data points into a predefined number of clusters, and mention how it works. you can also provide a real-life example for each of the algorithms to make your answer more complete.
+
+grade: 7-8
+
+feedback:
+
+your answer is correct in that precision is used for regression models and recall is used for classification models. however, you should explain the difference between the two metrics in more detail. for example, precision measures the number of correct positive predictions out of all positive predictions while recall measures the number of correct positive predictions out of all actual positive values. additionally, you can provide an example of when you would use precision over recall and vice versa.
+grade=7
+feedback=No feedback provided for this response.
+

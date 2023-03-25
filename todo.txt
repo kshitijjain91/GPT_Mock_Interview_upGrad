@@ -1,21 +1,23 @@
-- Find speech to text API
-- Deploy app on Hugging face space, integrate with Cloud DBs?
-- Raise exception if openAI error [APIConnectionError]; raise gradio error
-- Modularize instructions and create one for DM
+Phase-1: Launch MVP
+- Create clear git workflow
+- End interview after 20 questions 
+- Put text to speech 
+- Store audio files somewhere on cloud/AWS
+- Set up cloud DB 
+- Raise exception if openAI error [APIConnectionError]; raise gradio error (whisper / ChatCompletion / Completion)
+- Create DS and DM versions
+- Launch MVP on LMS 
 
-
-- Provide common interview questions to GPT and guide GPT to ask questions in a representative flow; 
-create rubric for each question so grading quality is better
-
-- Improve grading and feedback prompts
+Phase-2: Iterate
+- Consult someone from tech on this: Where should this be deployed, which DBs, should we launch on gradio and meanwhile build elsewhere etc 
+- Speed up transcription (segmenting/compression/other techniques?)
+- Fine tune: 
+	- Provide common interview questions to GPT and guide GPT to ask questions in a representative flow; create rubric for each question so grading quality is better
 	- Provide hints if unsure e.g. Hint: Think about things like normality, homoscedasticity, independence, and absence of multicollinearity. 
 	- If response is imperfect, probe deeper on the same topic
-	- Add examples to rubrics
 	- Question - response pair is not exhaustive!
-	- Grade is too harsh! Modify this.
 	- Test reliability: Should be 10/10 for perfect reponses; less than 4/10 for bad responses
-
-- Create UI on gradio
+- Improve UI on gradio
 	- Add progress bar / some way to tell user how much interview is left
 	- Hint functionality
 	- P2 stuff:
@@ -26,5 +28,5 @@ ________________________________________________________________________________
 ## Macro (Long Term) Todo 
 - Create plan for adoption and scale/impact (align with VG) 
 - Build long term product plan: Ideally all data should be stored in a DB so we can fine tune the model continuously
-- Consult someone from tech on this: Where should this be deployed, which DBs, should we launch on gradio and meanwhile build elsewhere etc 
+
 
