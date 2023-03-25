@@ -13,6 +13,9 @@ heading_one = '''# <span style="color:gray">GPT Interview Assistant by </span><s
 rubric_filepath = interview_directory + "/evaluation_rubric.txt"
 system_message_filepath = interview_directory + "/system_message.txt"
 assistant_first_message_filepath = interview_directory + "/assistant_first_message.txt"
+
+max_rows = 30 # max number of rows to show in feedback table
+max_conversations = 25 # max conversations allowed 
 		
 with open(system_message_filepath) as f:
 	system_message = ' '.join(f.readlines())
@@ -105,7 +108,6 @@ def convert_audio_file(input_file_path, output_file_path, output_format):
     audio.export(output_file_path, format=output_format)
     return output_file_path
 
-
 def whisper_transcribe(input_filepath):
     output_filepath = "/Users/kshitij.jain/Desktop/ChatGPT_Experiments/python_chatgpt/newaudiofile.mp3"
     output_filepath = convert_audio_file(input_filepath, output_filepath, "mp3")
@@ -113,27 +115,25 @@ def whisper_transcribe(input_filepath):
     transcript = openai.Audio.transcribe("whisper-1", audio_file)
     return transcript["text"]
 
-max_rows = 30 # max number of rows to show in feedback table
-
 with gr.Blocks(theme=gr.themes.Default(font=[gr.themes.GoogleFont("Inter"), "Arial", "sans-serif"])) as demo:
 	message_history = gr.State([
 		{"role": "system", "content": system_message}, 
-		{"role": "assistant", "content": assistant_first_message}])
+		{"role": "assistant", "content": assistant_first_message}]) # message_history is used by the GPT ChatCompletion() method
 	scores = gr.State([]) # store question, response, grades, feedback in a list of dicts [{question}, {response}, {grade}, {feedback}]
 	gr.Markdown(heading_one) # show the heading and instructions
 	line_below_heading = gr.Markdown("____")
 	gr.Markdown(assistant_first_message)
-	chatbot = gr.Chatbot(lines=4, label="Interview Assistant")
+	chatbot = gr.Chatbot(lines=4, label="Interview Assistant") # list-like object [[user_response, bot_response]]
 	with gr.Row():
 		audio_input = gr.Audio(source="microphone", type="filepath")
 		transcribe_button = gr.Button("Transcribe")
 	msg = gr.Textbox(lines=4, label="Your response", placeholder="Record from mic, transcribe and press Shift+Enter to submit.")
+	
 	some_line = gr.Markdown("##")
 	horizontal_line_one = gr.Markdown("____")
 	show_feedback = gr.Button("End Interview and See Score & Feedback")
 	horizontal_line_two = gr.Markdown("____")
 
-	
 	another_line = gr.Markdown("##")
 	
 	feedback_array = []
@@ -172,7 +172,11 @@ with gr.Blocks(theme=gr.themes.Default(font=[gr.themes.GoogleFont("Inter"), "Ari
 			raise gr.Error("API connection error! Refresh page to restart.")
 		message_history.append({"role": "assistant", "content": reply_content})
 		gr_chat_history[-1][1] = reply_content.replace(">", "")
-		return gr_chat_history, message_history, scores
+		if len(gr_chat_history) > max_conversations:
+			gr_chat_history[-1][1] = '''You have reached the end of the interview. Please click "End Interview and See Score & Feedback"'''
+			return gr_chat_history, message_history, scores
+		else:
+			return gr_chat_history, message_history, scores
 	
 	
 	def show_feedback_fn(scores):

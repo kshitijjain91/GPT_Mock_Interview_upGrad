@@ -1677,3 +1677,54 @@ your answer is correct in that precision is used for regression models and recal
 grade=7
 feedback=No feedback provided for this response.
 
+this is an example of supervised learning. supervised learning is where we have a target variable that we are trying to predict and we have a set of predictor variables. unsupervised learning is where we do not have a target variable and we are just trying to find patterns in the data. for example, we might use unsupervised learning to cluster data points into different groups.
+grade=None
+feedback=No feedback provided for this response.
+
+grade: 9-10
+
+feedback: your answer is technically correct and provides a good example of unsupervised learning.
+grade=9
+feedback=your answer is technically correct and provides a good example of unsupervised learning.
+
+role:
+
+{
+
+grade: 9-10,
+
+feedback: your answer is technically correct and provides a detailed explanation of the concept of regularization. you also mention why it is necessary and name two popular regularization techniques.
+grade=9
+feedback=your answer is technically correct and provides a detailed explanation of the concept of regularization. you also mention why it is necessary and name two popular regularization techniques.
+
+i thought regularization was only used for classification models.
+
+grade: 0
+
+feedback:
+
+the candidates response is incorrect. regularization is a technique that can be used for both regression and classification models. it helps to prevent overfitting by penalizing model coefficients. ridge and lasso are two popular regularization techniques. ridge regularization adds a penalty equal to the square of the magnitude of the coefficients, while lasso regularization adds a penalty equal to the absolute value of the magnitude of the coefficients.
+grade=0
+feedback=No feedback provided for this response.
+
+grade: 0
+
+feedback:
+
+your answer was incorrect. supervised learning is a type of machine learning where the data is labeled, and the algorithm learns to predict the labels. unsupervised learning is a type of machine learning where the data is not labeled, and the algorithm learns to find patterns in the data.
+grade=0
+feedback=No feedback provided for this response.
+
+{
+grade: 7,
+feedback: your answer is technically correct but lacks either exhaustiveness or clarity of explanation. you correctly defined supervised and unsupervised learning but could provide better examples. for example, a supervised learning technique is linear regression where the goal is to predict a continuous outcome variable (y) based on one or more predictor variables (x). an unsupervised learning technique is clustering where the goal is to group similar data points together.
+}
+grade=7
+feedback=your answer is technically correct but lacks either exhaustiveness or clarity of explanation. you correctly defined supervised and unsupervised learning but could provide better examples. for example, a supervised learning technique is linear regression where the goal is to predict a continuous outcome variable (y) based on one or more predictor variables (x). an unsupervised learning technique is clustering where the goal is to group similar data points together.
+
+grade: 6
+
+feedback: your answer is partially correct in that supervised learning is used to predict an output variable using one or more input variables, and unsupervised learning is used to discover patterns in data. however, you could mention that supervised learning is further divided into two types of problems - regression and classification, and unsupervised learning is further divided into two types of problems - clustering and association. you could also provide one example of each to help the candidate better understand the concepts.
+grade=6
+feedback=your answer is partially correct in that supervised learning is used to predict an output variable using one or more input variables, and unsupervised learning is used to discover patterns in data. however, you could mention that supervised learning is further divided into two types of problems - regression and classification, and unsupervised learning is further divided into two types of problems - clustering and association. you could also provide one example of each to help the candidate better understand the concepts.
+
