@@ -22,11 +22,15 @@ The recorded audio files are stored on the server, though each audio input is ov
 ## Asking Questions 
 This is the core functionality of the application – the Assistant tries to simulate a long conversation with the user, ask questions in a flow, and provide cues and direction when the user needs them. 
 
-Fortunately, ChatGPT is really good at making chats (no surprises here 🙂). All we need to do is:
+This is done via the `ChatCompletion()` API of ChatGPT. 
+
+Since ChatGPT is really good at making chats (no surprises here 🙂), all we need to do is:
 * Provide prompts / directions to guide the behavior of ChatGPT
 * Store and provide the entire chat history as input (so it can process the next response in the context of the entire chat). 
 
 Because it is capable of using the entire chat history to generate each response, it reflects in the conversion flow. For e.g. if the user enters good responses in the interview, it progressively asks better / harder questions. While if the user seems to struggle with some questions, it provides more hints and increases the difficulty level gradually.
+
+
 
 
 
