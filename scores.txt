@@ -1728,3 +1728,131 @@ feedback: your answer is partially correct in that supervised learning is used t
 grade=6
 feedback=your answer is partially correct in that supervised learning is used to predict an output variable using one or more input variables, and unsupervised learning is used to discover patterns in data. however, you could mention that supervised learning is further divided into two types of problems - regression and classification, and unsupervised learning is further divided into two types of problems - clustering and association. you could also provide one example of each to help the candidate better understand the concepts.
 
+grade: 0
+
+feedback:
+
+your response is incorrect. supervised learning is a type of machine learning where the model is trained on a labeled dataset, i.e. the target variable is known. the model is then used to predict the target variable for new data. an example of a supervised learning technique is linear regression. unsupervised learning is a type of machine learning where the model is trained on an unlabeled dataset, i.e. the target variable is not known. the model is then used to cluster the data into different groups. an example of an unsupervised learning technique is k-means clustering.
+grade=0
+feedback=No feedback provided for this response.
+
+grade: 7-8
+
+feedback: your answer is technically correct, but it is lacking in detail. you should mention that in supervised learning, the training data is labeled, while in unsupervised learning, the training data is not labeled. you can also provide an example of a supervised learning problem (regression or classification) and an unsupervised learning problem (clustering).
+grade=7
+feedback=your answer is technically correct, but it is lacking in detail. you should mention that in supervised learning, the training data is labeled, while in unsupervised learning, the training data is not labeled. you can also provide an example of a supervised learning problem (regression or classification) and an unsupervised learning problem (clustering).
+
+grade: 9-10
+
+feedback:
+
+your answer is technically correct and provides examples of supervised and unsupervised learning. however, to make your answer better, you can provide a brief explanation of how each of these methods works. for example, you can mention how logistic regression works by using a sigmoid function to map input values to probabilities, and how k-means clustering works by iteratively assigning data points to the nearest cluster center.
+grade=9
+feedback=No feedback provided for this response.
+
+grade: 9-10
+
+feedback:
+
+your answer is technically correct and you provided a clear example of each.
+grade=9
+feedback=No feedback provided for this response.
+
+grade: 10
+
+feedback:
+
+great answer! you provided a great example of when both supervised and unsupervised learning can be used for the same data set.
+grade=10
+feedback=No feedback provided for this response.
+
+{
+grade: 0,
+
+feedback: the answer is incorrect. covariance is a measure of how two variables change with respect to each other. a positive covariance means that the variables are positively related, meaning that they both increase or decrease together. a negative covariance means that the variables are inversely related, meaning that one increases as the other decreases. correlation is a measure of the strength of the relationship between two variables. the correlation coefficient is a value between -1 and 1 that represents how closely values for two variables move in tandem. a positive correlation means that as one variable increases, the other increases, and as one decreases, the other decreases. a correlation of -1 indicates a perfect negative correlation, meaning that as one variable increases, the other decreases, and vice versa. a correlation of 0 indicates that the variables are not correlated.
+
+}
+grade=0
+feedback=the answer is incorrect. covariance is a measure of how two variables change with respect to each other. a positive covariance means that the variables are positively related, meaning that they both increase or decrease together. a negative covariance means that the variables are inversely related, meaning that one increases as the other decreases. correlation is a measure of the strength of the relationship between two variables. the correlation coefficient is a value between -1 and 1 that represents how closely values for two variables move in tandem. a positive correlation means that as one variable increases, the other increases, and as one decreases, the other decreases. a correlation of -1 indicates a perfect negative correlation, meaning that as one variable increases, the other decreases, and vice versa. a correlation of 0 indicates that the variables are not correlated.
+
+so an example of a supervised learning technique would be, you know, a linear regression, where youre trying to predict a continuous output variable from input variables. and an example of an unsupervised learning technique would be, you know, a clustering technique, where youre trying to, you know, group data points together.
+grade=None
+feedback=No feedback provided for this response.
+
+grade: 7-8
+
+feedback: your answer is technically correct but lacks exhaustiveness. for example, in the case of supervised learning, you can mention that other regression techniques that can be used to solve the problem, such as, decision trees, random forest, etc. similarly, in the case of unsupervised learning, you can mention that other clustering techniques that can be used to solve the problem, such as, hierarchical clustering, etc.
+grade=7
+feedback=your answer is technically correct but lacks exhaustiveness. for example, in the case of supervised learning, you can mention that other regression techniques that can be used to solve the problem, such as, decision trees, random forest, etc. similarly, in the case of unsupervised learning, you can mention that other clustering techniques that can be used to solve the problem, such as, hierarchical clustering, etc.
+
+grade: 7-8
+
+feedback: your answer is technically correct but lacks exhaustiveness. you should mention other ways of avoiding overfitting, such as using cross-validation, regularization, early stopping, etc.
+grade=7
+feedback=your answer is technically correct but lacks exhaustiveness. you should mention other ways of avoiding overfitting, such as using cross-validation, regularization, early stopping, etc.
+
+this will help the model to generalize better and avoid overfitting.
+
+grade: 7-8
+
+feedback:
+
+your answer is technically correct but it lacks exhaustiveness. in addition to training the model on a larger sample of the dataset, you can also avoid overfitting by using cross-validation, regularization, or early stopping.
+grade=7
+feedback=No feedback provided for this response.
+
+a good example of supervised learning would be a regression problem where we are trying to predict a continuous output variable using a set of input features. an example of unsupervised learning would be a clustering problem where we are trying to group similar data points together.
+{
+    grade: 8,
+    feedback: your answer is technically correct, but it can be improved. for example, you can explain the types of problems that are typically solved using supervised and unsupervised learning techniques. for example, supervised learning is typically used for predictive modeling while unsupervised learning is used for exploratory data analysis.
+}
+grade=8
+feedback=your answer is technically correct, but it can be improved. for example, you can explain the types of problems that are typically solved using supervised and unsupervised learning techniques. for example, supervised learning is typically used for predictive modeling while unsupervised learning is used for exploratory data analysis.
+
+grade: 7-8
+
+feedback: your answer is technically correct, but it lacks exhaustiveness. for example, for supervised learning, you could mention that there are two types of supervised learning - regression and classification. for unsupervised learning, you could mention that there are two types - clustering and association.
+grade=7
+feedback=your answer is technically correct, but it lacks exhaustiveness. for example, for supervised learning, you could mention that there are two types of supervised learning - regression and classification. for unsupervised learning, you could mention that there are two types - clustering and association.
+
+grade: 0 
+
+feedback: the candidate does not know the answer to the question.
+grade=0
+feedback=the candidate does not know the answer to the question.
+
+grade: 0
+
+feedback: the response is incorrect and does not address the question asked.
+grade=0
+feedback=the response is incorrect and does not address the question asked.
+
+grade: 0
+
+feedback: your answer is incorrect. type i error is when the model predicts an observation as positive when it is actually negative. type ii error is when the model predicts an observation as negative when it is actually positive. you should provide an example for each type of error.
+grade=0
+feedback=your answer is incorrect. type i error is when the model predicts an observation as positive when it is actually negative. type ii error is when the model predicts an observation as negative when it is actually positive. you should provide an example for each type of error.
+
+grade: 8
+
+feedback:
+
+your answer is mostly correct. supervised learning is where you have input data and labeled output data, and you are trying to predict the output data using the input data. unsupervised learning is where you have input data but no labeled output data, and you are trying to discover patterns from the input data.
+
+one example of supervised learning would be regression, where you are trying to predict a continuous output variable from a set of input variables. one example of unsupervised learning would be clustering, where you are trying to group data points into clusters based on similarity.
+grade=8
+feedback=No feedback provided for this response.
+
+grade: 7-8
+
+feedback: your answer is technically correct, but it lacks exhaustiveness and clarity of explanation. to make your answer better, you can provide a brief description of how linear regression and k-means clustering work. additionally, you can provide an example of when you would use linear regression and when you would use k-means clustering.
+grade=7
+feedback=your answer is technically correct, but it lacks exhaustiveness and clarity of explanation. to make your answer better, you can provide a brief description of how linear regression and k-means clustering work. additionally, you can provide an example of when you would use linear regression and when you would use k-means clustering.
+
+{
+grade: 0,
+
+feedback: the candidate does not know the answer to the question.
+grade=0
+feedback=the candidate does not know the answer to the question.
+

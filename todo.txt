@@ -1,19 +1,20 @@
-Phase-1: Launch MVP
-- Create clear git workflow
-- Store audio files somewhere on cloud/AWS
-- Set up cloud DB - store username, all user and bot conversations, scores and feedback
-- Deploy on Huggingface 
-
+Phase-1: Launch MVP Friday April 7
+- Create clear git workflow for collaborative development
+- Deploy app on Huggingface spaces 
+- Figure out a way to store audio files on server
+- Store user data (email ID / pull from LMS)
+- Set up cloud DB - store all user and bot conversations, scores and feedback; username also?
 - Raise exception if openAI error [APIConnectionError]; raise gradio error (whisper / ChatCompletion / Completion)
-- Create DS and DM versions
-- CSS changes: Increase font size
-- Capitalize stuff in feedback
-- Launch MVP on LMS 
+- Basic CSS/visual changes: Increase font size; capitalize stuff in feedback
+- Create DS and DM versions and MVP on LMS 
+- Test internally: 8 people x 5 interviews per person (min 15 questions each) = 40 interviews
+- Fine tune model on 40 interviews data
+- Test fine tuned model again and launch on LMS 
 
-Phase-2: Iterate
+Phase-2: Iterate and improve
 - Consult someone from tech on this: Where should this be deployed, which DBs, should we launch on gradio and meanwhile build elsewhere etc 
 - Speed up transcription (segmenting/compression/other techniques?)
-- Streaming text input? Doesn't work too well!
+- Streaming text input? Doesn't work too well. 
 - Put text to speech? Only if speech is good quality like Murf.
 - Fine tune: 
 	- Provide common interview questions to GPT and guide GPT to ask questions in a representative flow; create rubric for each question so grading quality is better

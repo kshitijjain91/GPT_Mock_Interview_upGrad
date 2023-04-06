@@ -217,4 +217,4 @@ with gr.Blocks(theme=gr.themes.Default(font=[gr.themes.GoogleFont("Inter"), "Ari
 		
 # run only if directly executed on terminal
 if __name__ == "__main__":
-	demo.launch(share=False)
+	demo.launch(share=True)
